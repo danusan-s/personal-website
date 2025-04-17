@@ -7,8 +7,8 @@ function NavButton(props: { title: string; dest: string; active: boolean }) {
       <div
         className={`text-lg transition-all duration-100 hover:scale-110 ${
           props.active
-            ? "font-bold text-blue-600 scale-110"
-            : "text-white-700 dark:text-black-700 hover:text-blue-400"
+            ? "font-bold text-black dark:text-white scale-110"
+            : "text-grey active:scale-100"
         }`}
       >
         {props.title}

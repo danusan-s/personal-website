@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../globals.css";
+import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -11,5 +12,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main className="flex-1 overflow-hidden">{children}</main>;
+  return (
+    <>
+      <NavBar title="Projects" />
+      <main className="flex-1 overflow-hidden">{children}</main>;
+    </>
+  );
 }
