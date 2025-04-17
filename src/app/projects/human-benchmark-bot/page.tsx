@@ -20,9 +20,9 @@ export default function HumanBenchmark() {
           website.
           <br />
           <br />
-          This project isn't really something I would use to show off my skills
-          but it is a fun side project that I was able to make when I had very
-          little experience.
+          This project isn&apos;t really something I would use to show off my
+          skills but it is a fun side project that I was able to make when I had
+          very little experience.
         </p>
       </div>
     </div>

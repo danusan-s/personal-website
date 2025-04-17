@@ -1,4 +1,3 @@
-import NavBar from "@/components/NavBar";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Projects() {
@@ -28,7 +27,6 @@ export default function Projects() {
             imgSrc="/projects/gossip.png"
             redirect="gossip-web-forum"
             title="Web Forum Gossip"
-            invert={false}
           />
           <ProjectCard
             imgSrc="/projects/chess.svg"

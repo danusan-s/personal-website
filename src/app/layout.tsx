@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono } from "next/font/google";
-import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -16,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Danusan's Personal Website",
+  title: "Danusan&apos;s Personal Website",
   description: "Everything there is to me",
 };
 

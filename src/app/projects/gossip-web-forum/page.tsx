@@ -19,7 +19,7 @@ export default function Gossip() {
           >
             here
           </a>{" "}
-          if I haven't run out of Azure credits.
+          if I haven&apos;t run out of Azure credits.
         </p>
       </div>
     </div>
