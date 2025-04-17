@@ -30,6 +30,7 @@ export default function ThemeToggle() {
       onClick={toggleTheme}
       className={`
         relative p-2 transition-all duration-300
+        hover:scale-110
         ${isAnimating ? "scale-90" : "scale-100"}
       `}
       aria-label="Toggle theme"
