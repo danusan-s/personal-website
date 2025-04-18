@@ -3,7 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 export default function Projects() {
   return (
     <>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-[calc(100vh-8rem)] p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center mt-4 sm:mt-2 min-h-[calc(100vh-4rem)] p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <div>
           <h1 className="text-2xl font-bold text-center">
             These are some of my software projects:
@@ -12,7 +12,7 @@ export default function Projects() {
             (These can also be found on my GitHub)
           </p>
         </div>
-        <div className="flex gap-8 items-start justify-center flex-row flex-wrap">
+        <main className="flex gap-8 items-start justify-center row-start-2 flex-row flex-wrap">
           <ProjectCard
             imgSrc="/projects/cpu.svg"
             redirect="cache-simulator"
@@ -38,7 +38,7 @@ export default function Projects() {
             redirect="human-benchmark-bot"
             title="Human Benchmark Bot"
           />
-        </div>
+        </main>
       </div>
     </>
   );

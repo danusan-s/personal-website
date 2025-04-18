@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <>
       <NavBar title="Projects" />
-      <main className="flex-1 overflow-hidden">{children}</main>;
+      <main className="flex-1 overflow-hidden">{children}</main>
     </>
   );
 }

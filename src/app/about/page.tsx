@@ -7,7 +7,7 @@ export default function About() {
       <NavBar title="About" />
       <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-[calc(100vh-8rem)] p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center max-w-2xl text-center text-lg text-neutral-700 dark:text-neutral-300">
-          <div className="flex flex-row items-center">
+          <div className="flex flex-col sm:flex-row items-center">
             <Image
               src="/me.jpg"
               alt="Profile Photo"
