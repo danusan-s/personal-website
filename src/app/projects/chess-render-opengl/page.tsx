@@ -6,6 +6,17 @@ export default function ChessRender() {
       </h1>
       <div>
         <p className="text-xl text-left text-justify">
+          The repository for the project can be found{" "}
+          <a
+            href="https://github.com/danusan-s/Chess-Render-with-OpenGL"
+            target="_blank"
+            className="text-blue-500"
+          >
+            here
+          </a>{" "}
+          .
+          <br />
+          <br />
           This is a chess GUI written in C++ using OpenGL. The project was made
           to learn the basics of OpenGL and the graphics pipeline. The resource
           I used for this project is{" "}

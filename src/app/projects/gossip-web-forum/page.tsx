@@ -4,6 +4,17 @@ export default function Gossip() {
       <h1 className="text-4xl font-bold text-center">Gossip - Web Forum</h1>
       <div>
         <p className="text-xl text-left text-justify">
+          The repository for the project can be found{" "}
+          <a
+            href="https://github.com/danusan-s/gossip"
+            target="_blank"
+            className="text-blue-500"
+          >
+            here
+          </a>{" "}
+          .
+          <br />
+          <br />
           This is a web forum built using React + TypeScript frontend and a Go +
           MySQL + Azure backend. The project was built as a submission for CVWO.
           It helped me learn the basics of web development and how to build a

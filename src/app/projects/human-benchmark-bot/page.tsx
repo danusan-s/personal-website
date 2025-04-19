@@ -4,6 +4,17 @@ export default function HumanBenchmark() {
       <h1 className="text-4xl font-bold text-center">Human Benchmark Bot</h1>
       <div>
         <p className="text-xl text-left text-justify">
+          The repository for the project can be found{" "}
+          <a
+            href="https://github.com/danusan-s/Human-Benchmark-Bot"
+            target="_blank"
+            className="text-blue-500"
+          >
+            here
+          </a>{" "}
+          .
+          <br />
+          <br />
           This is an old project I built after high school to brush up on my
           python skills. This project is heavily inspired by{" "}
           <a

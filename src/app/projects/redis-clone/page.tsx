@@ -4,6 +4,17 @@ export default function Redis() {
       <h1 className="text-4xl font-bold text-center">Redis Clone</h1>
       <div>
         <p className="text-xl text-left text-justify">
+          The repository for the project can be found{" "}
+          <a
+            href="https://github.com/danusan-s/redis-clone"
+            target="_blank"
+            className="text-blue-500"
+          >
+            here
+          </a>{" "}
+          .
+          <br />
+          <br />
           This is a Redis clone built using C++. Redis is an in-memory database
           that can be hosted on servers and requests can be made through a TCP
           socket. I came across Redis while I was looking through the tech stack
